@@ -1,0 +1,19 @@
+//const dip = useDispatch();
+//const a = useSelector((state)=>state.user.email)?"Found":"Not Found"
+//<button onClick={()=>{dip({type:"LoggedIn",email:auth.currentUser.email})}}>Submit</button>
+
+//import Loginforum from './components/auth_components/Loginforum';
+//import app from './firebase/firebase';
+//import Activity from './components/activity_components/Activity';
+
+//(store.getState().user.email==null)?"New User":store.getState().user.email;
+// Variables
+//const auth = getAuth(app);
+
+// Functions
+
+//Package Imports
+//import {getAuth} from 'firebase/auth';
+//import { useDispatch,useSelector } from 'react-redux';
+//import store from './Redux/store';
+
