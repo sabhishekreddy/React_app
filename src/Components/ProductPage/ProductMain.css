@@ -1,0 +1,11 @@
+#product-page{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 5vw;
+    height: 92vh;
+}
+
+#gap-container{
+    height: 10vh;
+}

@@ -1,12 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import customreducer from './reducers';
 
-const initialState = {
-    user : {
-        name:"",
-        email :"-1"
-    }
-}
+const initialState = {}
 
-const store = configureStore({reducer:customreducer,preloadedState:{}});
+const store = configureStore({reducer:customreducer});
 export default store;

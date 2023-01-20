@@ -1,0 +1,81 @@
+#main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    gap: 2vw;
+}
+
+#left{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vw;
+    padding: 1vh 0;
+}
+
+#left>span{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.combination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1vh;
+    margin:1vh 1vw;
+    padding: 1vh;
+    gap: 2vw;
+}
+
+.combination>input{
+    outline: none;
+    border: none;
+    padding: 1vh 1vw;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.75vw;
+    box-shadow: 0 0 5px 5px #ebebec;
+}
+
+.combination> input::placeholder{
+    color: rgb(52, 51, 51);
+    font-weight: 400;
+}
+
+#navigations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5vw;
+}
+
+#navigations>*{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+@media only screen and (max-width:600px){
+    svg:nth-child(3){
+        display: none;
+    }
+
+    #navigations{
+        display: none;
+    }
+}

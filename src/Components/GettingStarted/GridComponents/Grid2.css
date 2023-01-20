@@ -1,0 +1,10 @@
+#gs-grid2-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#gs-grid2-main>img{
+    width: 70%;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#storeHeaderMain{
+    width: 96vw;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2vw;
+}
+
+#storeheaderleft{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+#storeheaderleft>h1{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+#storeheaderleft>div{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap: 1rem;
+    margin-left: 5rem;
+}
+
+#storeheaderleft>div>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+}
+
+#storeheaderright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+#store-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+#store-profile>img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+}

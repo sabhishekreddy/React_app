@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#gs-main{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 5vw;
+    height: 98vh;
+}
+
+#gs-content-main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 7vh;
+    flex: 1;
+}

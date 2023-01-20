@@ -1,0 +1,66 @@
+#gs-grid1-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+    margin-top: 5vh;
+}
+
+#gs-grid1-top-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25vh 1.5vw;
+    padding-right: 3px;
+    border-radius: 40px;
+    gap: 1vw;
+    box-shadow: 5px 5px 50px 5px rgba(199, 200 , 203, 0.5);
+}
+#gs-grid1-top-logo>h3{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: orange;
+}
+
+#gs-grid1-top-logo>span{
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 1vh 1vw;
+}
+
+#gs-grid1-welcometext-main{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+}
+
+#gs-grid1-welcometext-main > span{
+    display: block;
+}
+
+#gs-grid1-welcometext-main>*{
+    font-size: 4rem;
+    font-weight: 800;
+    background-color: transparent;
+}
+
+.green{
+    color: rgb(81,212,21);
+}
+
+#gs-grid1-main > p{
+    color: grey;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button{
+    padding: 2vh 2vw;
+    font-size: 24px;
+    border: none;
+    background-color: rgb(81,212,21);
+    color: white;
+    border-radius: 2vh;
+}

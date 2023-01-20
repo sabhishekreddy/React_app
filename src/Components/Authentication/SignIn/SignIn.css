@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #B6B6B6;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.SignInContainer{
+    padding: 2rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.SignInContainer>div{
+    background-color: transparent;
+}
+
+#signinhiddentitle{
+    display: none;
+    background-color: transparent;
+    color: white;
+}
+
+.SignInTopBar>div{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.SignInTopBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+#SignIntitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+#SignIntitle h1{
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+#SignIncreateform{
+    margin: 0.9rem 0;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 1.5rem;
+    background-color: transparent;
+}
+
+#SignIncreateform input{
+    border: none;
+    padding: 0 1rem;
+    width: auto;
+    height: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px #e4e4e4;
+    background-color: white;
+}
+
+#SignIncreateform input:focus{
+    outline: none;
+}
+
+#SignIncreateform button{
+    display: block;
+    width: 100%;
+    background-color: black;
+    height: 4rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.25rem;
+}
