@@ -31,7 +31,7 @@ export default function () {
       </div>
       <div id="center-grid"
        layoutId="product-glimpse-1">
-        <motion.img src={coke} alt="product" key="unique-2" layoutId="layout-id-1"/>
+        <motion.img src={coke} alt="product" layoutId="layout-id-1"/>
       </div>
       <div id="right-grid">
         <img src={coke} alt="product" />

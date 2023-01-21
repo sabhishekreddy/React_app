@@ -13,7 +13,7 @@ export default function StoreHeader() {
       <div id="storeheaderleft">
         <h1>Store</h1>
         <div>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/auth">Auth</Link>
         </div>
       </div>
